@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style2.css" type="text/css">
+<link rel="stylesheet" href="index.scss">
+<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+<link rel="stylesheet" href="css/form.css">
+<title>Contact Me</title>
+
+</head>
+<body style="background-color: #000000">
+  <!-- The sidebar -->
+<div class="sidebar" style="background-color: #B3B3B3">
+    <a href="/~scruffyr/greggardeterville/index.html"><img src="http://box5804.temp.domains/~scruffyr/greggardeterville/images/gd profilepic.jpg" alt="GD Profile" class="profile-image"></a>
+    <h2><strong class="f1">GD</strong></h2>
+  <a class="active"></a>
+      <a href="/~scruffyr/greggardeterville/about.html">About Me</a>
+      <a href="/~scruffyr/greggardeterville/portfolio.html">My Portfolio</a>
+      <a href="/~scruffyr/greggardeterville/coding.html">Coding Examples</a>
+      <a href="/~scruffyr/greggardeterville/scs-scheme.html">SCS Scheme</a>
+      <a href="/~scruffyr/greggardeterville/contact.html">Contact Me</a><br>        
+
+      <a href="https://twitter.com/greggar_d" class="social twitter">Twitter</a>
+      <a href="https://linkedin.com/in/greggardeterville/" class="social linkedin">LinkedIn</a>
+      <a href="https://facebook.com/GreggarDeterville" class="social facebook">Facebook</a>
+      <a href="https://instagram.com/greggar_d" class="social instagram">Instagram</a>
+ </div>		
+
+ <script src="devapp.js"></script>
+
+   <!-- Header -->
+   <header>       
+     <h1><strong>My Name is Greggar Deterville</strong></h1> 
+     <!--Animated Header Text-->
+     <div class="typing-container">
+       <h3><span id="sentence" class="sentence">I am a</span></h3>
+       <span id="feature-text"></span>
+       <span class="input-cursor"></span>
+     </div>    
+   </header>
+
+  <br>  
+ <center>
+<table width="900" border="0">
+  <tbody>
+    <tr>
+      <th scope="col">
+	  <address>
+      <p>Greggar Deterville<br>
+      +44 0794 662 2252<br>
+      ceo@greggardeterville.com<br>
+      E9 5RF, London<br>
+	  United Kingdom</p>
+      </address>
+		</th>
+     <th scope="col">
+		<h3>Contact Me</h3>
+    <p><span class="error">* Required Field</span></p>
+		<form name="contact" action="contact.php" onsubmit="return validateForm()" method="post">
+      <label for="fname">First Name <span class="error">* </span></label>      
+      <input type="text" id="fname" name="firstname">
+      <label for="lname">Last Name <span class="error">* </span></label>
+      <input type="text" id="lname" name="lastname">
+      <label for="email">E-Mail <span class="error">* </span></label>
+      <input type="text" id="email" name="email">
+      <label for="country">Country</label>
+      <input type="text" id="country" name="country">
+      <br><br>
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="other">Other
+      <br><br>
+      <label for="subject">Comment</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+    </th>
+    </tr>
+  </tbody>
+	 </table></center>
+	<br>
+	
+	
+	<!-- Footer Section -->
+  <footer>
+	<!-- Copyrights Section -->
+  <div class="copyright">&copy;2023 - <strong>GREGGAR DETERVILLE</strong></div>
+</div>
+	</footer>
+<!-- Main Container Ends -->
+	
+</body>
+
+</html>
