@@ -3,14 +3,14 @@
 /* Header */
 header {
   text-align: auto;
-  background: url("/images/###") no-repeat, repeat;
+  background: url("images/###") no-repeat, repeat;
   background-color: transparent;
   background-size: cover;
   height: 500px;  
 }
 
 .bg {
-background-image: url("/images/gdbkgd.jpg");
+background-image: url("images/gdbkgd.jpg");
 background-position: center center;
 background-repeat:  no-repeat;
 background-attachment: fixed;
@@ -615,16 +615,16 @@ footer p {
 }
 
 a.twitter  {
-	background-image: url("https://greggardeterville.co.uk/images/twitter icon.png");
+	background-image: url('images/twitter icon.png');
 }
 a.linkedin {
-	background-image: url('https://greggardeterville.co.uk/images/linkedin icon.png');
+	background-image: url('images/linkedin icon.png');
 }
 a.facebook {
-	background-image: url('https://greggardeterville.co.uk/images/facebook icon.png');
+	background-image: url('images/facebook icon.png');
 }
 a.instagram {
-	background-image: url('https://greggardeterville.co.uk/images/instagram icon.png');
+	background-image: url('images/instagram icon.png');
 }
 a.social:hover {
 opacity: .1;
